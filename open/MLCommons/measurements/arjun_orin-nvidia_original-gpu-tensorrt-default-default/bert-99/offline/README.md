@@ -41,9 +41,6 @@ cm run script \
 
 7.  `cm run script --tags=get,mlcommons,inference,src,_deeplearningexamples`
 
-
-8.  `cm run script --tags=get,mlperf,inference,nvidia,common-code`
-
 ## Dependent CM scripts for the MLPerf Inference Implementation
 
 
