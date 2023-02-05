@@ -20,6 +20,7 @@ cm run script \
 ## Dependent CM scripts 
 
 `cm run script --tags=detect,os`
+
 `cm run script --tags=detect,cpu`
 `cm run script --tags=get,sys-utils-cm`
 `cm run script --tags=get,python`
