@@ -19,10 +19,13 @@ cm run script \
 ```
 ## Dependent CM scripts 
 
-`cm run script --tags=detect,os`
 
-`cm run script --tags=detect,cpu`
-`cm run script --tags=get,sys-utils-cm`
+1. `cm run script --tags=detect,os`
+
+2. `cm run script --tags=detect,cpu`
+
+3. `cm run script --tags=get,sys-utils-cm`
+4. 
 `cm run script --tags=get,python`
 `cm run script --tags=get,cuda`
 `cm run script --tags=get,cuda-devices`
