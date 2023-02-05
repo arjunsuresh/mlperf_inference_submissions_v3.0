@@ -1,0 +1,31 @@
+{
+    "0":{
+        "Organization":"MLCommons",
+        "Availability":"available",
+        "Division":"open",
+        "SystemType":"edge",
+        "SystemName":"Arjuns-MacBook-Pro-2.local (auto detected)",
+        "Platform":"Arjuns_MacBook_Pro_2.local-reference-cpu-onnxruntime-v1.13.1-default",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":64.3801,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":null,
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"open\/MLCommons\/results\/Arjuns_MacBook_Pro_2.local-reference-cpu-onnxruntime-v1.13.1-default\/resnet50\/offline",
+        "framework":"onnxruntime",
+        "operating_system":" (darwin-22.2.0)",
+        "notes":null,
+        "compilance":1,
+        "errors":0,
+        "version":"v3.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s"
+    }
+}
