@@ -15,26 +15,60 @@ cm run script \
 	--adr.nvidia-harness.input_format=linear \
 	--adr.nvidia-harness.make_cmd=run \
 	--env.LD_PRELOAD=/home/arjun/.local/lib/python3.8/site-packages/torch/lib/libgomp-d22c30c5.so.1 \
-	--readme=yes
+	--readme=yes \
+	--regenerate_files=yes
 ```
 ## Dependent CM scripts 
 
-`cm run script --tags=detect,os`
-`cm run script --tags=detect,cpu`
-`cm run script --tags=get,sys-utils-cm`
-`cm run script --tags=get,python`
-`cm run script --tags=get,cuda`
-`cm run script --tags=get,cuda-devices`
-`cm run script --tags=get,mlcommons,inference,src,_deeplearningexamples`
-`cm run script --tags=get,mlperf,inference,nvidia,common-code`
+
+1.  `cm run script --tags=detect,os`
+
+
+2.  `cm run script --tags=detect,cpu`
+
+
+3.  `cm run script --tags=get,sys-utils-cm`
+
+
+4.  `cm run script --tags=get,python`
+
+
+5.  `cm run script --tags=get,cuda`
+
+
+6.  `cm run script --tags=get,cuda-devices`
+
+
+7.  `cm run script --tags=get,mlcommons,inference,src,_deeplearningexamples`
+
+
+8.  `cm run script --tags=get,mlperf,inference,nvidia,common-code`
+
 ## Dependent CM scripts for the MLPerf Inference Implementation
 
-`cm run script --tags=detect,os`
-`cm run script --tags=detect,cpu`
-`cm run script --tags=get,sys-utils-cm`
-`cm run script --tags=get,cuda,_cudnn`
-`cm run script --tags=get,tensorrt`
-`cm run script --tags=build,nvidia,inference,server`
-`cm run script --tags=get,mlcommons,inference,src,_deeplearningexamples`
-`cm run script --tags=get,nvidia,mlperf,inference,common-code,_custom`
-`cm run script --tags=generate,user-conf,mlperf,inference`
+
+1. `cm run script --tags=detect,os`
+
+
+2. `cm run script --tags=detect,cpu`
+
+
+3. `cm run script --tags=get,sys-utils-cm`
+
+
+4. `cm run script --tags=get,cuda,_cudnn`
+
+
+5. `cm run script --tags=get,tensorrt`
+
+
+6. `cm run script --tags=build,nvidia,inference,server`
+
+
+7. `cm run script --tags=get,mlcommons,inference,src,_deeplearningexamples`
+
+
+8. `cm run script --tags=get,nvidia,mlperf,inference,common-code,_custom`
+
+
+9. `cm run script --tags=generate,user-conf,mlperf,inference`
